@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.PerspectiveCamera?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="709.0" prefWidth="849.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockgamer.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
+      <TextField fx:id="SYMTextField" layoutX="238.0" layoutY="196.0" />
+      <Button fx:id="searchSYM" layoutX="405.0" layoutY="196.0" mnemonicParsing="false" onAction="#searchTheSYM" text="Go!" />
+      <Label fx:id="title" layoutX="84.0" layoutY="109.0" prefHeight="17.0" prefWidth="307.0" text="Label">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <LineChart layoutX="44.0" layoutY="250.0" style="-fx-background-color: grey;">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="homeTab" layoutY="14.0" mnemonicParsing="false" onAction="#getHome" prefHeight="40.0" prefWidth="167.0" text="Home" />
+      <Button fx:id="myProfileTab" layoutX="167.0" layoutY="14.0" mnemonicParsing="false" onAction="#getProfile" prefHeight="40.0" prefWidth="167.0" text="My Profile" />
+      <Button fx:id="buySellTab" layoutX="334.0" layoutY="14.0" mnemonicParsing="false" onAction="#getBuySell" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: grey;" text="Buy/Sell" textFill="#320303" />
+      <Separator layoutX="-1.0" layoutY="49.0" prefHeight="11.0" prefWidth="864.0" />
+      <Button layoutX="771.0" layoutY="7.0" mnemonicParsing="false" onAction="#exit" prefHeight="40.0" prefWidth="76.0" text="Log Out" />
+      <PerspectiveCamera fieldOfView="66.0" />
+      <Button layoutX="619.0" layoutY="169.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="136.0" text="Buy" />
+      <Button layoutX="628.0" layoutY="295.0" mnemonicParsing="false" prefHeight="89.0" prefWidth="136.0" style="-fx-background-color: white;" text="Sell" />
+    </children>
+   <effect>
+      <Lighting>
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+         <light>
+            <Light.Distant />
+         </light>
+      </Lighting>
+   </effect>
+</AnchorPane>

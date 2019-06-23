@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="709.0" prefWidth="849.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockgamer.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="background" fitHeight="703.0" fitWidth="843.0" layoutX="3.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="button" layoutX="363.0" layoutY="419.0" onAction="#handleButtonAction" prefHeight="40.0" prefWidth="124.0" style="-fx-background-color: black;" text="Sign Up" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+        <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
+      <Label layoutX="146.0" layoutY="48.0" prefHeight="203.0" prefWidth="582.0" text="Stock Gamer">
+         <font>
+            <Font name="Kannada MN" size="86.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#83057f" />
+                  <Stop color="#83057f" offset="0.10377773410815719" />
+                  <Stop color="#e80a80" offset="0.2445561139028476" />
+                  <Stop color="RED" offset="0.3687150837988827" />
+                  <Stop color="#ffae00" offset="0.7891786680141865" />
+                  <Stop color="#fffb00" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="button1" layoutX="283.0" layoutY="290.0" onAction="#loginButton" prefHeight="85.0" prefWidth="283.0" style="-fx-background-color: gray;" text="Log In" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="44.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

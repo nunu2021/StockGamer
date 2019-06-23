@@ -1,0 +1,395 @@
+01asd
+01bsd
+01clabdi
+01d3455.0
+01e3455.0
+02ass
+02bss
+02csdas
+02d34222.0
+02e34222.0
+03aaaa
+03baa
+03csdaa
+03d34533.0
+03e34533.0
+04ass
+04bss
+04css
+04d3242.0
+04e3242.0
+05aking
+05bking
+05cnunuIsKing
+05d1.111111111E9
+05e1.111111111E9
+06asiddhu
+06blala
+06csiddhi
+06d3453.0
+06e3453.0
+07atest
+07btest1
+07ctest
+07d3222.0
+07e3222.0
+08anunu
+08bMahavir24
+08clab
+08d24233.0
+08e24233.0
+09abadul
+09bKiritSnehAju
+09clastTime
+09d32222.0
+09e32222.0
+10ausername
+10bpassword
+10cname
+10d23432.0
+10e23432.0
+11abobby
+11byou
+11cbob
+11d32222.0
+11e32222.0
+12ajimmy
+12bmm
+12cjim
+12d32423.0
+12e32423.0
+13almao
+13baa
+13claaaa
+13d33333.0
+13e33333.0
+14assl
+14bnn
+14css
+14d10000.0
+14e10000.0
+15anunu
+15bmama
+15clabdhi
+15d32423.0
+15e32423.0
+16aaju
+16bla
+16cpachiji
+16d100.0
+16e100.0
+17asfs
+17bsfd
+17clabdih
+17d4000.0
+17e4000.0
+18aaa
+18baa
+18clala
+18d2650.4600000000005
+18e3242.0
+19a713295
+19bnunu
+19cLabdhi
+19d9408.46
+19e10000.0
+20aaju
+20bnunu
+20cAjita
+20d99211.28000000003
+20e100000.0
+21az
+21bz
+21cz
+21d111.0
+21e111.0
+22ac
+22bc
+22cc
+22d3.0
+22e3.0
+23ab
+23bb
+23cb
+23d0.0
+23e0.0
+24as
+24bs
+24cs
+24d200.0
+24e200.0
+25ap
+25bp
+25cp
+25d100.0
+25e100.0
+26aq
+26bq
+26cq
+26d222.0
+26e222.0
+27al
+27bl
+27cl
+27d1000.0
+27e1000.0
+27fApple Inc. (AAPL) 197.18
+27fApple Inc. (AAPL) 197.18
+27fApple Inc. (AAPL) 197.18
+27fApple Inc. (AAPL) 197.18
+27fApple Inc. (AAPL) 197.18
+28at
+28bt
+28ct
+28d3725.4399999999996
+28e4444.0
+28fTesla, Inc. (TSLA) 239.52
+28fTesla, Inc. (TSLA) 239.52
+28fTesla, Inc. (TSLA) 239.52
+29ay
+29by
+29cy
+29d76249.18
+29e100000.0
+29fNASDAQ Composite (^IXIC) 7916.94
+29fNASDAQ Composite (^IXIC) 7916.94
+29fNASDAQ Composite (^IXIC) 7916.94
+30av
+30bv
+30cv
+30d9000.0
+30e9000.0
+31ag
+31bg
+31cg
+31d2513.44
+31e3232.0
+31fTesla, Inc. (TSLA) 239.52
+31fTesla, Inc. (TSLA) 239.52
+31fTesla, Inc. (TSLA) 239.52
+32ao
+32bo
+32co
+32d99281.43999999999
+32e100000.0
+32fTesla, Inc. (TSLA) 239.52
+32fTesla, Inc. (TSLA) 239.52
+32fTesla, Inc. (TSLA) 239.52
+33aj
+33bj
+33cj
+33d3333.0
+33e3333.0
+34av
+34bv
+34cv
+34d3333.0
+34e3333.0
+35aw
+35bw
+35cw
+35d2222.0
+35e2222.0
+36ab
+36bb
+36cb
+36d455.0
+36e455.0
+37au
+37bu
+37cu
+37d147.82
+37e345.0
+37fApple Inc. (AAPL) 197.18
+38anunu
+38bCortezRocks
+38cLabdhi
+38d99520.95999999999
+38e100000.0
+38fTesla, Inc. (TSLA) 239.52
+38fTesla, Inc. (TSLA) 239.52
+39ae
+39be
+39ce
+39d33234.0
+39e33234.0
+40amanu
+40bmanish6
+40cManish Jain
+40d12413.439999999999
+40e13132.0
+40fTesla, Inc. (TSLA) 239.52
+40fTesla, Inc. (TSLA) 239.52
+40fTesla, Inc. (TSLA) 239.52
+41ag
+41bg
+41cg
+41d31741.970000000005
+41e32423.0
+41fTesla, Inc. (TSLA) 227.85
+41fTesla, Inc. (TSLA) 227.01
+41fTesla, Inc. (TSLA) 227.01
+42ay
+42by
+42cy
+42d4335.0
+42e4335.0
+43af
+43bf
+43cf
+43d3534.0
+43e3534.0
+44ax
+44bx
+44cx
+44d31968.980000000003
+44e32423.0
+44fTesla, Inc. (TSLA) 227.01
+44fTesla, Inc. (TSLA) 227.01
+45ap
+45bp
+45cp
+45d1784.8400000000001
+45e2342.0
+45fApple Inc. (AAPL) 185.72
+45fApple Inc. (AAPL) 185.72
+45fApple Inc. (AAPL) 185.72
+46ap
+46bp
+46cp
+46d233303.4
+46e234232.0
+46fApple Inc. (AAPL) 185.72
+46fApple Inc. (AAPL) 185.72
+46fApple Inc. (AAPL) 185.72
+46fApple Inc. (AAPL) 185.72
+46fApple Inc. (AAPL) 185.72
+47ai
+47bi
+47ci
+47d3467.0
+47e3467.0
+48ac
+48bc
+48cc
+48d3333.0
+48e3333.0
+49ar
+49br
+49cr
+49d42452.0
+49e42452.0
+50ad
+50bd
+50cd
+50d1231.0
+50e1231.0
+51ah
+51bh
+51ch
+51d5444.0
+51e5444.0
+52ar
+52br
+52cr
+52d1662.9699999999998
+52e2344.0
+52fTesla, Inc. (TSLA) 227.01
+52fTesla, Inc. (TSLA) 227.01
+52fTesla, Inc. (TSLA) 227.01
+53anunu
+53bMahavir24
+53cLabdhi
+53d9442.840000000002
+53e10000.0
+53fApple Inc. (AAPL) 185.72
+53fApple Inc. (AAPL) 185.72
+53fApple Inc. (AAPL) 185.72
+54anunu
+54bMahavir24
+54cLabdhi
+54d32442.0
+54e32442.0
+55anunu
+55bMahavir24
+55cLabdhi
+55d319596.70000000007
+55e325345.0
+56att
+56btt
+56ctt
+56d2343.0
+56e2343.0
+57ae
+57bee
+57ce
+57d2342.0
+57e2342.0
+58aas
+58baa
+58cda
+58d1969.9799999999998
+58e2424.0
+58fTesla, Inc. (TSLA) 227.01
+58fTesla, Inc. (TSLA) 227.01
+59ar
+59br
+59cr
+59d2980.9799999999996
+59e3435.0
+60ag
+60bg
+60cg
+60d3424.0
+60e3424.0
+61ag
+61bg
+61cg
+61d3445.0
+61e3445.0
+62aJain
+62bee
+62clabdhi
+62d2313.0
+62e2313.0
+63anunu
+63bCortezRocks
+63cLabdhi
+63d100000.0
+63e100000.0
+64aas
+64bas
+64csad
+64d1323.0
+64e1323.0
+65axc
+65bxc
+65cxc
+65d42342.0
+65e42342.0
+66aws
+66bws
+66cws
+66d321231.0
+66e321231.0
+67ads
+67bsd
+67cddf
+67d3553.0
+67e3553.0
+68ayy
+68byy
+68cyy
+68d45345.0
+68e45345.0
+55fAmazon.com, Inc. (AMZN) 1,916.10
+55fAmazon.com, Inc. (AMZN) 1,916.10
+55fAmazon.com, Inc. (AMZN) 1,916.10
+69aJain1435
+69b613307
+69cSiddhi Jain
+69d18302.91
+69e23000.0
+69fAmazon.com, Inc. (AMZN) 1,916.10
+69fAmazon.com, Inc. (AMZN) 1,916.10
+69fTesla, Inc. (TSLA) 216.22

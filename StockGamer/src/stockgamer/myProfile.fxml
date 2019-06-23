@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="707.0" prefWidth="1058.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockgamer.FXMLDocumentController">
+    <children>
+      <Button layoutX="577.0" layoutY="364.0" mnemonicParsing="false" prefHeight="214.0" prefWidth="383.0" style="-fx-background-color: pink;" />
+        <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
+      <Label fx:id="greetings" layoutX="58.0" layoutY="80.0" prefHeight="17.0" prefWidth="307.0" textFill="#a4a4a4">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Button fx:id="homeTab" layoutY="14.0" mnemonicParsing="false" onAction="#getHome1" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: white;" text="Home">
+         <font>
+            <Font name="Avenir Next Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="myProfileTab" layoutX="167.0" layoutY="14.0" mnemonicParsing="false" onAction="#getProfile" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #AAAAFF;" text="My Profile" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="18.0" />
+         </font></Button>
+      <Separator layoutX="-1.0" layoutY="49.0" prefHeight="11.0" prefWidth="1058.0" />
+      <Button layoutX="958.0" mnemonicParsing="false" onAction="#exit" prefHeight="54.0" prefWidth="100.0" text="Log Out">
+         <font>
+            <Font name="Avenir Next Bold" size="17.0" />
+         </font></Button>
+      <ListView fx:id="boughtStocks" layoutX="58.0" layoutY="186.0" prefHeight="478.0" prefWidth="368.0" />
+      <Label layoutX="133.0" layoutY="109.0" prefHeight="40.0" prefWidth="236.0" text="Bought Stocks" textFill="#d3f2ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalValue" layoutX="590.0" layoutY="471.0" prefHeight="40.0" prefWidth="358.0" textAlignment="CENTER" textFill="#d3f2ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="netValue11" layoutX="689.0" layoutY="412.0" prefHeight="25.0" prefWidth="160.0" text="Cash Balance:" textFill="#bcbcbc">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="seeBought" layoutX="611.0" layoutY="149.0" mnemonicParsing="false" onAction="#seeBoughtButton" prefHeight="160.0" prefWidth="315.0" style="-fx-background-color: orange;" text="See Bought Stocks">
+         <font>
+            <Font name="Hiragino Sans W2" size="29.0" />
+         </font></Button>
+      <Label fx:id="nameOfPerson" layoutX="340.0" layoutY="20.0" prefHeight="27.0" prefWidth="618.0" textAlignment="RIGHT" textFill="#ffb04f">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

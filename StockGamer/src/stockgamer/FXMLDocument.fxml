@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="766.0" prefWidth="1125.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stockgamer.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16" minWidth="69" />
+      <TextField fx:id="SYMTextField" layoutX="98.0" layoutY="96.0" prefHeight="27.0" prefWidth="458.0" />
+      <Button fx:id="searchSYM" layoutX="556.0" layoutY="96.0" mnemonicParsing="false" onAction="#searchTheSYM" prefHeight="27.0" prefWidth="127.0" style="-fx-background-color: #123456;" text="Go!" textFill="WHITE" />
+      <Label fx:id="name_symbol" layoutX="79.0" layoutY="129.0" prefHeight="48.0" prefWidth="602.0" textFill="#fffafa">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Label>
+      <LineChart fx:id="chart" layoutX="44.0" layoutY="250.0" prefHeight="398.0" prefWidth="778.0" style="-fx-background-color: lightblue;" title="Annual Open">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <Button fx:id="homeTab" layoutY="14.0" mnemonicParsing="false" onAction="#getHome1" prefHeight="40.0" prefWidth="167.0" style="-fx-background-color: #AAAAFF;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Avenir Next Bold" size="17.0" />
+         </font></Button>
+      <Button fx:id="myProfileTab" layoutX="167.0" layoutY="14.0" mnemonicParsing="false" onAction="#getProfile" prefHeight="40.0" prefWidth="167.0" text="My Profile">
+         <font>
+            <Font name="Avenir Next Bold" size="17.0" />
+         </font></Button>
+      <Separator layoutX="-1.0" layoutY="49.0" prefHeight="11.0" prefWidth="1125.0" />
+      <Button layoutX="1022.0" layoutY="-4.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="104.0" text="Log Out">
+         <font>
+            <Font name="Avenir Next Bold" size="18.0" />
+         </font></Button>
+      <Label fx:id="currentValue" layoutX="47.0" layoutY="196.0" prefHeight="40.0" prefWidth="227.0" textFill="#dadada">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <Label fx:id="changeValue" layoutX="251.0" layoutY="203.0" prefHeight="48.0" prefWidth="261.0" textFill="#b4b5b4" wrapText="true">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="buyButton" layoutX="865.0" layoutY="601.0" mnemonicParsing="false" onAction="#buyStocks" prefHeight="43.0" prefWidth="104.0" style="-fx-background-color: green;" text="Buy" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font></Button>
+      <Button fx:id="sellButton" layoutX="981.0" layoutY="601.0" mnemonicParsing="false" onAction="#sellStocks" prefHeight="44.0" prefWidth="104.0" style="-fx-background-color: maroon;" text="Sell" textFill="WHITE">
+         <font>
+            <Font size="21.0" />
+         </font></Button>
+      <Separator layoutX="879.0" layoutY="412.0" prefWidth="200.0" />
+      <Separator layoutX="879.0" layoutY="353.0" prefWidth="200.0" />
+      <Separator layoutX="879.0" layoutY="384.0" prefWidth="200.0" />
+      <Label layoutX="879.0" layoutY="384.0" prefHeight="27.0" prefWidth="58.0" text="Ask" textFill="#a4a1a1" />
+      <Label layoutX="879.0" layoutY="360.0" prefHeight="17.0" prefWidth="58.0" text="Bid" textFill="#a19c9c" />
+      <Label layoutX="879.0" layoutY="330.0" prefHeight="17.0" prefWidth="58.0" text="Open" textFill="#978f8f" />
+      <Separator layoutX="879.0" layoutY="441.0" prefWidth="200.0" />
+      <Separator layoutX="879.0" layoutY="468.0" prefWidth="200.0" />
+      <Separator layoutX="879.0" layoutY="497.0" prefWidth="200.0" />
+      <Label layoutX="879.0" layoutY="471.0" prefHeight="27.0" prefWidth="58.0" text="Volume" textFill="#a4a1a1" />
+      <Label layoutX="869.0" layoutY="438.0" prefHeight="40.0" prefWidth="112.0" text="  52 Week Range" textFill="#a4a1a1" />
+      <Label layoutX="876.0" layoutY="415.0" prefHeight="27.0" prefWidth="83.0" text="Day's Range" textFill="#a4a1a1" />
+      <Label layoutX="879.0" layoutY="502.0" prefHeight="17.0" prefWidth="76.0" text="Avg Volume" textFill="#a4a1a1" />
+      <Label fx:id="showMoney1" layoutX="888.0" layoutY="195.0" prefHeight="52.0" prefWidth="200.0" text="\$" textFill="#cac6ff">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="open" layoutX="987.0" layoutY="330.0" prefHeight="17.0" prefWidth="93.0" textAlignment="RIGHT" textFill="WHITE" />
+      <Label fx:id="bid" layoutX="987.0" layoutY="360.0" prefHeight="17.0" prefWidth="93.0" textAlignment="RIGHT" textFill="WHITE" />
+      <Label fx:id="ask" layoutX="987.0" layoutY="389.0" prefHeight="17.0" prefWidth="93.0" textFill="WHITE" />
+      <Label fx:id="daysRange" layoutX="987.0" layoutY="420.0" prefHeight="17.0" prefWidth="93.0" textAlignment="RIGHT" textFill="WHITE" />
+      <Label fx:id="weekRange" layoutX="987.0" layoutY="451.0" prefHeight="17.0" prefWidth="93.0" textAlignment="RIGHT" textFill="WHITE" />
+      <Label fx:id="volume" layoutX="987.0" layoutY="476.0" prefHeight="17.0" prefWidth="93.0" textFill="WHITE" />
+      <Label fx:id="avgVolume" layoutX="987.0" layoutY="502.0" prefHeight="17.0" prefWidth="93.0" textFill="WHITE" />
+      <Label fx:id="netMoney1" layoutX="888.0" layoutY="102.0" prefHeight="40.0" prefWidth="200.0" text="\$" textFill="#cac6ff">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="netValue1" layoutX="845.0" layoutY="75.0" prefHeight="27.0" prefWidth="236.0" text="Total Investment Value" textFill="#bcbcbc">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="netValue11" layoutX="886.0" layoutY="176.0" prefHeight="25.0" prefWidth="160.0" text="Cash Balance" textFill="#bcbcbc">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Separator layoutX="879.0" layoutY="519.0" prefHeight="11.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>
